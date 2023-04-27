@@ -13,8 +13,10 @@ function getWeather(lat, lon) {
     axios
         .get("http://localhost:3001/weather", {
             params: { lat, lon },
+
         })
         .then(res => {
+            console.log(res)
             console.log(res.data)
         })
         .catch(e => {
