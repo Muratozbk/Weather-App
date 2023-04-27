@@ -4,7 +4,6 @@
   "description": "",
   "source": "index.hml",
   "scripts": {
-    "devStart": "nodemon server.js",
     "start": "parcel index.html"
   },
   "keywords": [],
